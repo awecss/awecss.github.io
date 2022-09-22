@@ -1,15 +1,64 @@
 body{
+	padding: 0;
+	margin: 0;
 	overflow-y: hidden;
+	background: #f1f1f1;
 }
-div{
+
+.top-nav{
+	background: white;
+	width: 100%;
+	height: 3em;
+	display: flex;
+}
+.top-nav div{
+	margin: 0em 1em;
+	align-self: center;
+}
+.side-nav{
+	display: none;
+	background: white;
+	width: 20em;
+	position: fixed;
+	left: 0em;
+	top: 0em;
 	height: 100vh;
+}
+.but-close{
+	float: right;
+}
+.but{
+	border: 0.2em solid blueviolet;
+	border-radius: .2em;
+	background: lightblue;
+	padding: .2em .5em;
+}
+.but:hover{
+	cursor: pointer;
+}
+.div-nav-top{
+	width: 100%;
+	height: 3em;
+	border-bottom: .1em solid #f1f1f1;
+	/*background: red;*/
+}
+.div-nav-bot{
+	width: 100%;
+	background: grey;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 
 }
-h1{
-	color: black;
+
+.body-div{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.body-div h2{
+	margin-top: -3em;
 }
 span{
 	color: red;
