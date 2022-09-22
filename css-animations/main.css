@@ -11,3 +11,29 @@ div{
 h1{
 	color: black;
 }
+span{
+	color: red;
+	animation: 2s animated infinite;
+}
+
+@keyframes animated{
+	0%{
+		color: red;
+	}
+	25%{
+		color: black;
+		
+	}
+	50%{
+		
+		color: yellow;
+	}
+	75%{
+		
+		color: blue;
+	}
+	100%{
+		color: green;
+
+	}
+}
