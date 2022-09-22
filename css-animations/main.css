@@ -16,7 +16,7 @@ body{
 	align-self: center;
 }
 .side-nav{
-	display: none;
+	display: block;
 	background: white;
 	width: 20em;
 	position: fixed;
